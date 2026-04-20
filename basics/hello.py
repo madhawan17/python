@@ -26,3 +26,13 @@ print(order.format(quantity, chai_type))
 
 chai_variety= ['lemon', 'masala', 'ginger']
 print(", ".join(chai_variety))
+
+######################################
+l = [1, 2, 3]
+
+l.append(4)        # Add at end → [1,2,3,4]
+l.insert(1, 10)    # Insert at index → [1,10,2,3,4]
+l.remove(2)        # Remove value → [1,10,3,4]
+l.pop()            # Remove last → [1,10,3]
+l.sort()           # Sort list
+l.reverse()        # Reverse list
