@@ -15,3 +15,29 @@ for i in range(1, n+1):
         sum_even += 1
 
 print("Sum of even number is: , ", sum_even)
+
+###################################3
+number = 3
+
+for i in range(1, 11):
+    if i == 5:
+        continue
+    print(number, 'x', i, '=', number * i)
+
+####################################
+input_str = "Python"
+reversed_str = ""
+
+for char in input_str:
+    reversed_str = char + reversed_str  
+
+print(reversed_str)
+
+######################
+input_str = "teeteracdacd"
+
+for char in input_str:
+    print(char)
+    if input_str.count(char) == 1:
+        print("Char is: ", char)
+        break
